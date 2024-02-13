@@ -1,38 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-card {
+  color: black;
+  height: 180px;
+  border: 1px solid #F3F4F6;
+  border-radius: 4px;
+  background: #FFF;
+  margin: 10px;
+  padding: 10px 20px;
+  grid-template-columns: 25% 75%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-container {
+  height: 112px;
+  width: 112px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.repo-link {
+  /* max-width: 70% !important; */
+  white-space: nowrap
 }
 
-.App-link {
-  color: #61dafb;
+.user-details {
+  color: black;
+  height: calc(100vh - 50px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar {
+  object-fit: contain;
 }
