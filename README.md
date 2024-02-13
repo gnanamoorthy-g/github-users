@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm i`
+
+Installs dependencies in the project
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -29,7 +33,7 @@ You may also see any lint errors in the console.
 ### `Material-UI`
 - Material-UI is a popular React UI framework that implements Google's Material Design principles. It provides a set of reusable and customizable React components, styles, and icons that help developers create beautiful and responsive user interfaces.
 
-- I have utilized few Icons and Skeleton component as  a placeholder for content that is loading.
+- I have utilized a few Icons and Skeleton component as  a placeholder for loading content.
 
 ## Github Access Tokens
 
